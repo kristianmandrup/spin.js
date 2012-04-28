@@ -2,7 +2,7 @@ html, body {
   margin: 0;
 }
 html {
-  background: url(bg.png);
+  background: url(/assets/spin/bg.png);
 }
 body {
   color: #333;
@@ -38,7 +38,7 @@ ul {
   width: 100%;
 }
 #footer a.github {
-   background: url(github.gif) no-repeat;
+   background: url(/assets/spin/github.gif) no-repeat;
    width: 68px;
    height: 30px;
    text-indent: -999em;
@@ -99,7 +99,7 @@ h3 {
   position: absolute;
   top: 0;
   left: 0;
-  background: url(bg.png) -100px 0;
+  background: url(/assets/spin/bg.png) -100px 0;
   width: 240px;
   height: 85px;
 }
@@ -116,9 +116,9 @@ h3 {
   right: 0;
   width: 149px;
   height: 149px;
-  background:url(ribbon.png);
+  background:url(/assets/spin/ribbon.png);
   _background: none;
-  _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=ribbon.png);
+  _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src=/assets/spin/ribbon.png);
 }
 #preview {
   background: #333;
