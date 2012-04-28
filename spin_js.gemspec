@@ -10,16 +10,19 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Kristian Mandrup"]
   s.date = "2012-04-28"
-  s.description = "Adjustable Spinner"
+  s.description = "Animated CSS3 loading spinner"
   s.email = "kmandrup@gmail.com"
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.md"
   ]
   s.files = [
+    "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
     "Makefile",
     "README.md",
+    "Rakefile",
     "VERSION",
     "dist/spin.js",
     "dist/spin.min.js",
@@ -30,7 +33,24 @@ Gem::Specification.new do |s|
     "example/settings.html",
     "favicon.ico",
     "index.html",
-    "spin.js"
+    "lib/spin_js.rb",
+    "lib/spin_js/rails_engine.rb",
+    "spin.js",
+    "spin_js.gemspec",
+    "vendor/assets/fd-slider/fd-slider-tooltip.css",
+    "vendor/assets/fd-slider/fd-slider.css",
+    "vendor/assets/fd-slider/fd-slider.js",
+    "vendor/assets/images/spin/bg.png",
+    "vendor/assets/images/spin/browsers.png",
+    "vendor/assets/images/spin/crosshair.gif",
+    "vendor/assets/images/spin/github.gif",
+    "vendor/assets/images/spin/preview.jpg",
+    "vendor/assets/images/spin/ribbon.png",
+    "vendor/assets/javascripts/spin/prettify.js",
+    "vendor/assets/javascripts/spin/spin.js",
+    "vendor/assets/javascripts/spin/spin.min.js",
+    "vendor/assets/stylesheets/spin/main.css",
+    "vendor/assets/stylesheets/spin/prettify.css"
   ]
   s.homepage = "http://github.com/kristianmandrup/spin_js"
   s.licenses = ["MIT"]
